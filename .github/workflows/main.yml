@@ -24,4 +24,4 @@ jobs:
     # Build command
     - name: Build
       shell: cmd
-      run: '"%MSBUILD_PATH%\MSBuild.exe" alienhook/alienhook.vcxproj /p:Platform=Win32 /p:Configuration=Release'
+      run: '"%MSBUILD_PATH%\MSBuild.exe" Osiris/Osiris.vcxproj /p:Platform=Win32 /p:Configuration=Release'
